@@ -2765,99 +2765,7 @@ await import("//www.aromatherapyassociates.com/cdn/shopifycloud/shop-js/modules/
 
     <a class="skip-to-content-link" href="#main-content"> Skip to content </a>
 
-    <div id="shopify-section-announcement-bar" class="shopify-section">
 
-
-  
-
-  
-
-  
-    <div class="swiper mySwiper announcement-bar" id="announcement-bar" x-show="visible" ax-load="" ax-load-src="//www.aromatherapyassociates.com/cdn/shop/t/179/assets/astound.alpine.announcement-bar.js?v=72668189974770778241763567013" x-data="announcementBar">
-      <div class="swiper-wrapper">
-        
-          
-            
-              
-                <div class="swiper-slide announcement-bar__container" style="background-color: #071d49;">
-                
-                  <a href="https://www.aromatherapyassociates.com/collections/sale">
-                    <div class="announcement-bar__message basetext micro" style="color: #f9f6f4;"><p>Winter sale now on. Use WINTER20 and get 20% off*. Ends January 11th, 2026.</p></div>
-                  </a>
-                  
-              </div>
-              
-            
-        
-          
-            
-              
-            
-        
-          
-            
-              
-                <div class="swiper-slide announcement-bar__container" style="background-color: #071d49;">
-                
-                  <a href="https://www.aromatherapyassociates.com/pages/special-offers">
-                    <div class="announcement-bar__message basetext micro" style="color: #f9f6f4;"><p>Spend £120 or more and receive three FREE gifts</p></div>
-                  </a>
-                  
-              </div>
-              
-            
-        
-          
-            
-              
-                <div class="swiper-slide announcement-bar__container" style="background-color: #071d49;">
-                
-                  <a href="https://www.aromatherapyassociates.com/collections/christmas-gifting-collection">
-                    <div class="announcement-bar__message basetext micro" style="color: #f9f6f4;"><p>Explore our new festive gift sets</p></div>
-                  </a>
-                  
-              </div>
-              
-            
-        
-          
-            
-              
-                <div class="swiper-slide announcement-bar__container" style="background-color: #071d49;">
-                
-                  <a href="/collections/wellbeing-concern">
-                    <div class="announcement-bar__message basetext micro" style="color: #f9f6f4;"><p>Choose a FREE sample with EVERY order</p></div>
-                  </a>
-                  
-              </div>
-              
-            
-        
-          
-            
-              
-                <div class="swiper-slide announcement-bar__container" style="background-color: #071d49;">
-                
-                  <a href="/collections/last-chance">
-                    <div class="announcement-bar__message basetext micro" style="color: #f9f6f4;"><p>Last Chance to shop 40% off products nearing the end of their journey!</p></div>
-                  </a>
-                  
-              </div>
-              
-            
-        
-      </div>
-    </div>
-      <div class="announcement-bar__close" aria-label="close announcement bar" id="slider-close">
-        
-      </div>
-    
-
-  
-
-
-
-</div>
     <div id="shopify-section-header" class="shopify-section">
 
 <style data-shopify="">
@@ -3793,7 +3701,7 @@ await import("//www.aromatherapyassociates.com/cdn/shopifycloud/shop-js/modules/
 		<h4 class="header__recommendation-title"><p>Find your Mind + Skin Match</p></h4>
 		<div class="header__recommendation-description basetext small"><p>Not sure which skincare product is right for you? Take our quiz</p></div>
 		<div class="header__recommendation-btn-wrapper">
-			<a href="/pages/skincare-quiz" class="btn primary">TAKE THE SKINCARE QUIZ</a>
+			<a href="/skincare-quiz.html" class="btn primary">TAKE THE SKINCARE QUIZ</a>
 		</div>
 	</div>
 	
@@ -4427,7 +4335,7 @@ await import("//www.aromatherapyassociates.com/cdn/shopifycloud/shop-js/modules/
 		<h4 class="header__recommendation-title"><p>Find your Mind + Skin Match</p></h4>
 		<div class="header__recommendation-description basetext small"><p>Not sure which skincare product is right for you? Take our quiz</p></div>
 		<div class="header__recommendation-btn-wrapper">
-			<a href="/pages/skincare-quiz" class="btn primary">TAKE THE SKINCARE QUIZ</a>
+			<a href="/skincare-quiz.html" class="btn primary">TAKE THE SKINCARE QUIZ</a>
 		</div>
 	</div>
 	
@@ -4992,7 +4900,7 @@ await import("//www.aromatherapyassociates.com/cdn/shopifycloud/shop-js/modules/
   </style>
 
   <div class="content-slot content-slot-66d022fa-4c2f-42bf-b2c8-90b828b89f6f  grid-1 ">
-    <a href="/pages/skincare-quiz" class="content-slot__inner" target="_blank" @click="window.trackEvent('content_slot_click', { page: 'skincare'})">
+    <a href="/skincare-quiz.html" class="content-slot__inner" target="_blank" @click="window.trackEvent('content_slot_click', { page: 'skincare'})">
       <div class="content-slot__media-wrapper ">
         
           
@@ -5053,11 +4961,7 @@ await import("//www.aromatherapyassociates.com/cdn/shopifycloud/shop-js/modules/
     
       <div class="product-card__wishlist" :class="{show: addedToWishList !== null}" x-data="wishlistButton" ax-load="" ax-load-src="//www.aromatherapyassociates.com/cdn/shop/t/179/assets/astound.alpine.wishlist-btn.js?v=81483677512180393371759754484" x-init="()=>{handle = 'radiance-repair-duo'}" @wishlist.window="getWishlist">
         <!-- Swym Wishlist Plus EPI Button -->
-        <button class="product-card__wishlist-btn empty" x-show="addedToWishList === false" @click.stop="add" aria-label="Wishlist">
-          <svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-			<path fill-rule="evenodd" clip-rule="evenodd" d="M7.40862 1.58396C6.54533 0.735212 5.48909 0 4.29265 0C1.63241 0 0 2.22641 0 4.05273C0 8.00156 4.6898 11.6668 8 14C11.3103 11.6666 16 8.00117 16 4.05273C16 2.22656 14.3675 0 11.7073 0C10.5109 0 9.45479 0.735207 8.59153 1.58395C8.38287 1.78911 8.18547 2.0009 8.00008 2.21055C7.8147 2.0009 7.6173 1.78911 7.40862 1.58396ZM7.99999 12.9556C9.52441 11.8607 11.2255 10.5367 12.5918 9.07105C14.1309 7.41999 15.1273 5.7136 15.1273 4.05273C15.1273 2.61255 13.8084 0.84 11.7073 0.84C11.2018 0.84 10.6856 1.0325 10.1533 1.39017C9.6197 1.74874 9.12025 2.2398 8.66468 2.75499L8.00008 3.50656L7.33548 2.75499C6.87993 2.23982 6.38044 1.74876 5.84679 1.39018C5.31448 1.0325 4.79826 0.84 4.29265 0.84C2.19156 0.84 0.872727 2.61241 0.872727 4.05273C0.872727 5.7138 1.86916 7.42024 3.40825 9.07124C4.7745 10.5368 6.4756 11.8607 7.99999 12.9556Z" fill="#171717"></path>
-		</svg>
-        </button>
+        
         <button class="product-card__wishlist-btn full" x-show="addedToWishList === true" @click.stop="remove" aria-label="WishlistRemove">
           <svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
 			<path fill-rule="evenodd" clip-rule="evenodd" d="M7.40862 1.58396C6.54533 0.735212 5.48909 0 4.29265 0C1.63241 0 0 2.22641 0 4.05273C0 8.00156 4.6898 11.6668 8 14C11.3103 11.6666 16 8.00117 16 4.05273C16 2.22656 14.3675 0 11.7073 0C10.5109 0 9.45479 0.735207 8.59153 1.58395C8.38287 1.78911 8.18547 2.0009 8.00008 2.21055C7.8147 2.0009 7.6173 1.78911 7.40862 1.58396Z" fill="#071D49"></path>
@@ -5087,23 +4991,12 @@ await import("//www.aromatherapyassociates.com/cdn/shopifycloud/shop-js/modules/
     <div class="product-card__main">
       
       <div class="product-card__metafields eyebrow">
-        Balance Mind & Skin
+        Cân bằng tâm trí & làn da
       </div>
       <h5 class="product-card__title">Radiance & Repair Facial Duo</h5>
       
       <div class="product-card__ratings">
-        <div class="yotpo bottomLine" data-appkey="v6myo2ta2yIYdE7uz944DA9N91sTw02E7GP2OW5Z" data-domain="aromatherapy-associates.myshopify.com" data-product-id="7912823521522" data-product-models="7912823521522" data-name="Radiance & Repair Facial Duo" data-url="https://www.aromatherapyassociates.com/products/radiance-repair-duo" data-image-url="files/WEEK37_WEB_IMAGES_SKINCARE_DUO_5_3000x3000_1.png" data-description="<p><span data-mce-fragment=" 1"="">Embrace clever layering for all skin types with this serum and face oil combo<p></p>
-<p><br>Worth £127 | Saving 30%</p>
-<p> </p>
-<p>A layering ritual to adopt after cleansing, and before applying creams or overnight masks.</p>
-<p> </p>
-<p>Apply our Radiance Boost Serum first to maximise absorption of the face oil. Alpine Rose to promotes cell regeneration, whilst Prebiotics restores and repairs the skin’s barrier. Ultimately reducing signs of inflammation on dehydrated or stretched skin.</p>
-<p>It also doubles up as an eye cream.</p>
-<p><br>Then layer on the Pro Barrier Boost Face Oil for rehydration with Rice Germ Oil, replenished vibrance with Moringa Oil and restore the skin's barrier with Blue Tansy. Rosehip Oil also brightens and evens skin tone, and boosts elasticity by regenerating collagen production.</p>
-<p><br></p>
-<p><br>This facial kit arrives in a luxury embossed box, containing:</p>
-<p>1 x Radiance Boost Serum 30ml</p>
-<p>1 x Pro Barrier Boost Face Oil 15ml<br></p>" data-bread-crumbs="breakouts;combination skin;daily;dehydrated skin;dry skin;dullness;face oil;mature skin;oily skin;pores;sensitive skin;skincare;"></div>
+        <div class="yotpo bottomLine" data-appkey="v6myo2ta2yIYdE7uz944DA9N91sTw02E7GP2OW5Z" data-domain="aromatherapy-associates.myshopify.com" data-product-id="7912823521522" data-product-models="7912823521522" data-name="Radiance & Repair Facial Duo" data-url="https://www.aromatherapyassociates.com/products/radiance-repair-duo" data-image-url="files/WEEK37_WEB_IMAGES_SKINCARE_DUO_5_3000x3000_1.png"></div>
       </div>
       
       
@@ -5113,7 +5006,7 @@ await import("//www.aromatherapyassociates.com/cdn/shopifycloud/shop-js/modules/
             
           </div>
         
-        <a href="/products/radiance-repair-duo" class="product-card__main__link"></a>
+        <a href="/radiance-repair-duo.html" class="product-card__main__link"></a>
       
     </div>
   </div>
@@ -5184,11 +5077,7 @@ Quick Buy
     
       <div class="product-card__wishlist" :class="{show: addedToWishList !== null}" x-data="wishlistButton" ax-load="" ax-load-src="//www.aromatherapyassociates.com/cdn/shop/t/179/assets/astound.alpine.wishlist-btn.js?v=81483677512180393371759754484" x-init="()=>{handle = 'hydration-super-boost-facial-duo'}" @wishlist.window="getWishlist">
         <!-- Swym Wishlist Plus EPI Button -->
-        <button class="product-card__wishlist-btn empty" x-show="addedToWishList === false" @click.stop="add" aria-label="Wishlist">
-          <svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-			<path fill-rule="evenodd" clip-rule="evenodd" d="M7.40862 1.58396C6.54533 0.735212 5.48909 0 4.29265 0C1.63241 0 0 2.22641 0 4.05273C0 8.00156 4.6898 11.6668 8 14C11.3103 11.6666 16 8.00117 16 4.05273C16 2.22656 14.3675 0 11.7073 0C10.5109 0 9.45479 0.735207 8.59153 1.58395C8.38287 1.78911 8.18547 2.0009 8.00008 2.21055C7.8147 2.0009 7.6173 1.78911 7.40862 1.58396ZM7.99999 12.9556C9.52441 11.8607 11.2255 10.5367 12.5918 9.07105C14.1309 7.41999 15.1273 5.7136 15.1273 4.05273C15.1273 2.61255 13.8084 0.84 11.7073 0.84C11.2018 0.84 10.6856 1.0325 10.1533 1.39017C9.6197 1.74874 9.12025 2.2398 8.66468 2.75499L8.00008 3.50656L7.33548 2.75499C6.87993 2.23982 6.38044 1.74876 5.84679 1.39018C5.31448 1.0325 4.79826 0.84 4.29265 0.84C2.19156 0.84 0.872727 2.61241 0.872727 4.05273C0.872727 5.7138 1.86916 7.42024 3.40825 9.07124C4.7745 10.5368 6.4756 11.8607 7.99999 12.9556Z" fill="#171717"></path>
-		</svg>
-        </button>
+        
         <button class="product-card__wishlist-btn full" x-show="addedToWishList === true" @click.stop="remove" aria-label="WishlistRemove">
           <svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
 			<path fill-rule="evenodd" clip-rule="evenodd" d="M7.40862 1.58396C6.54533 0.735212 5.48909 0 4.29265 0C1.63241 0 0 2.22641 0 4.05273C0 8.00156 4.6898 11.6668 8 14C11.3103 11.6666 16 8.00117 16 4.05273C16 2.22656 14.3675 0 11.7073 0C10.5109 0 9.45479 0.735207 8.59153 1.58395C8.38287 1.78911 8.18547 2.0009 8.00008 2.21055C7.8147 2.0009 7.6173 1.78911 7.40862 1.58396Z" fill="#071D49"></path>
@@ -5218,20 +5107,12 @@ Quick Buy
     <div class="product-card__main">
       
       <div class="product-card__metafields eyebrow">
-        Balance Mind & Skin
+        Cân bằng tâm trí & làn da
       </div>
       <h5 class="product-card__title">Hydration Super Boost Facial Kit</h5>
       
       <div class="product-card__ratings">
-        <div class="yotpo bottomLine" data-appkey="v6myo2ta2yIYdE7uz944DA9N91sTw02E7GP2OW5Z" data-domain="aromatherapy-associates.myshopify.com" data-product-id="7912829944050" data-product-models="7912829944050" data-name="Hydration Super Boost Facial Kit" data-url="https://www.aromatherapyassociates.com/products/hydration-super-boost-facial-duo" data-image-url="files/Hydration_super_Boost_DUO_1_3000x3000_3.png" data-description="<p>Replenish hydration with our super skin-quenching duos</p>
-<p><br>Worth £81 | Saving 30%</p>
-<p> </p>
-<p>Prep your skin to better absorb the Hydrating Gel Mask after a few spritz of our Hydration Boost Mist. Apply after cleansing, or throughout the day to refresh skin, and enjoy the aromas of Damask Rose Water to promote cell renewal, while skin is repaired and strengthened with an Amino Acid Blend. Hyaluronic Acid also plumps and delivers intense hydration, soothing the skin.</p>
-<p><br>Follow up by gliding on the Hydrating Gel Mask to lock in moisture. Prebiotics will support the skin’s natural defences with restoring properties, while Vitamin B5 hydrates and plumps the skin. Niacinamide will also brighten and energise the complexion. After leaving it on during the day or overnight, skin is left intensely moisturised with a smooth and petal-soft complexion.</p>
-<p><br></p>
-<p><br>This facial kit arrives in a luxury embossed box, containing:<br></p>
-<p><br>1 x Hydration Boost Mist 100ml<br></p>
-<p><br>1 x Hydrating Gel Mask 50ml<br></p>" data-bread-crumbs="breakouts;combination skin;daily;dehydrated skin;dry skin;dullness;mature skin;oily skin;pores;sensitive skin;skincare;"></div>
+        <div class="yotpo bottomLine" data-appkey="v6myo2ta2yIYdE7uz944DA9N91sTw02E7GP2OW5Z" data-domain="aromatherapy-associates.myshopify.com" data-product-id="7912829944050" data-product-models="7912829944050" data-name="Hydration Super Boost Facial Kit" data-url="https://www.aromatherapyassociates.com/products/hydration-super-boost-facial-duo" data-image-url="files/Hydration_super_Boost_DUO_1_3000x3000_3.png"></div>
       </div>
       
       
@@ -5241,7 +5122,7 @@ Quick Buy
             
           </div>
         
-        <a href="/products/hydration-super-boost-facial-duo" class="product-card__main__link"></a>
+        <a href="/hydration-super-boost-facial-duo.html" class="product-card__main__link"></a>
       
     </div>
   </div>
@@ -5312,11 +5193,7 @@ Quick Buy
     
       <div class="product-card__wishlist" :class="{show: addedToWishList !== null}" x-data="wishlistButton" ax-load="" ax-load-src="//www.aromatherapyassociates.com/cdn/shop/t/179/assets/astound.alpine.wishlist-btn.js?v=81483677512180393371759754484" x-init="()=>{handle = 'intensive-rich-cream-50ml'}" @wishlist.window="getWishlist">
         <!-- Swym Wishlist Plus EPI Button -->
-        <button class="product-card__wishlist-btn empty" x-show="addedToWishList === false" @click.stop="add" aria-label="Wishlist">
-          <svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-			<path fill-rule="evenodd" clip-rule="evenodd" d="M7.40862 1.58396C6.54533 0.735212 5.48909 0 4.29265 0C1.63241 0 0 2.22641 0 4.05273C0 8.00156 4.6898 11.6668 8 14C11.3103 11.6666 16 8.00117 16 4.05273C16 2.22656 14.3675 0 11.7073 0C10.5109 0 9.45479 0.735207 8.59153 1.58395C8.38287 1.78911 8.18547 2.0009 8.00008 2.21055C7.8147 2.0009 7.6173 1.78911 7.40862 1.58396ZM7.99999 12.9556C9.52441 11.8607 11.2255 10.5367 12.5918 9.07105C14.1309 7.41999 15.1273 5.7136 15.1273 4.05273C15.1273 2.61255 13.8084 0.84 11.7073 0.84C11.2018 0.84 10.6856 1.0325 10.1533 1.39017C9.6197 1.74874 9.12025 2.2398 8.66468 2.75499L8.00008 3.50656L7.33548 2.75499C6.87993 2.23982 6.38044 1.74876 5.84679 1.39018C5.31448 1.0325 4.79826 0.84 4.29265 0.84C2.19156 0.84 0.872727 2.61241 0.872727 4.05273C0.872727 5.7138 1.86916 7.42024 3.40825 9.07124C4.7745 10.5368 6.4756 11.8607 7.99999 12.9556Z" fill="#171717"></path>
-		</svg>
-        </button>
+        
         <button class="product-card__wishlist-btn full" x-show="addedToWishList === true" @click.stop="remove" aria-label="WishlistRemove">
           <svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
 			<path fill-rule="evenodd" clip-rule="evenodd" d="M7.40862 1.58396C6.54533 0.735212 5.48909 0 4.29265 0C1.63241 0 0 2.22641 0 4.05273C0 8.00156 4.6898 11.6668 8 14C11.3103 11.6666 16 8.00117 16 4.05273C16 2.22656 14.3675 0 11.7073 0C10.5109 0 9.45479 0.735207 8.59153 1.58395C8.38287 1.78911 8.18547 2.0009 8.00008 2.21055C7.8147 2.0009 7.6173 1.78911 7.40862 1.58396Z" fill="#071D49"></path>
@@ -5346,18 +5223,12 @@ Quick Buy
     <div class="product-card__main">
       
       <div class="product-card__metafields eyebrow">
-        Balance Mind & Skin
+        Cân bằng tâm trí & làn da
       </div>
       <h5 class="product-card__title">Intensive Rich Cream</h5>
       
       <div class="product-card__ratings">
-        <div class="yotpo bottomLine" data-appkey="v6myo2ta2yIYdE7uz944DA9N91sTw02E7GP2OW5Z" data-domain="aromatherapy-associates.myshopify.com" data-product-id="7903622758642" data-product-models="7903622758642" data-name="Intensive Rich Cream" data-url="https://www.aromatherapyassociates.com/products/intensive-rich-cream-50ml" data-image-url="files/RN231050_main_1a13f02a-49cf-4d53-b21a-de206f8f02c5.png" data-description="<p>A rich moisturiser to hydrate and repair</p>
-<p> </p>
-<p>25% off when you buy 2 or more, with code SKIN25.</p>
-<p> </p>
-<p>This fast-acting, rich formula provides an instant surge of moisture, leaving skin feeling supple, firm and glowing.</p>
-<p> </p>
-<p>The enrichment with Plant Stem Cell Technology instantly hydrates and enhances the skin barrier, promoting skin regeneration. And Prebiotics protects and supports the skin’s defences, visibly lifting the skin.</p>" data-bread-crumbs="badge_bg: #071D49;badge_colour: #f9f6f4;badge_text: 25% Off when you buy 2+;daily;dry skin;full size skincare;mature skin;sensitive skin;skincare;subscription;"></div>
+        <div class="yotpo bottomLine" data-appkey="v6myo2ta2yIYdE7uz944DA9N91sTw02E7GP2OW5Z" data-domain="aromatherapy-associates.myshopify.com" data-product-id="7903622758642" data-product-models="7903622758642" data-name="Intensive Rich Cream" data-url="https://www.aromatherapyassociates.com/products/intensive-rich-cream-50ml" data-image-url="files/RN231050_main_1a13f02a-49cf-4d53-b21a-de206f8f02c5.png"></div>
       </div>
       
       
@@ -5369,7 +5240,7 @@ Quick Buy
             
           </div>
         
-        <a href="/products/intensive-rich-cream-50ml" class="product-card__main__link"></a>
+        <a href="/intensive-rich-cream-50ml.html" class="product-card__main__link"></a>
       
     </div>
   </div>
@@ -5440,11 +5311,7 @@ Quick Buy
     
       <div class="product-card__wishlist" :class="{show: addedToWishList !== null}" x-data="wishlistButton" ax-load="" ax-load-src="//www.aromatherapyassociates.com/cdn/shop/t/179/assets/astound.alpine.wishlist-btn.js?v=81483677512180393371759754484" x-init="()=>{handle = 'radiance-boost-serum-30ml'}" @wishlist.window="getWishlist">
         <!-- Swym Wishlist Plus EPI Button -->
-        <button class="product-card__wishlist-btn empty" x-show="addedToWishList === false" @click.stop="add" aria-label="Wishlist">
-          <svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-			<path fill-rule="evenodd" clip-rule="evenodd" d="M7.40862 1.58396C6.54533 0.735212 5.48909 0 4.29265 0C1.63241 0 0 2.22641 0 4.05273C0 8.00156 4.6898 11.6668 8 14C11.3103 11.6666 16 8.00117 16 4.05273C16 2.22656 14.3675 0 11.7073 0C10.5109 0 9.45479 0.735207 8.59153 1.58395C8.38287 1.78911 8.18547 2.0009 8.00008 2.21055C7.8147 2.0009 7.6173 1.78911 7.40862 1.58396ZM7.99999 12.9556C9.52441 11.8607 11.2255 10.5367 12.5918 9.07105C14.1309 7.41999 15.1273 5.7136 15.1273 4.05273C15.1273 2.61255 13.8084 0.84 11.7073 0.84C11.2018 0.84 10.6856 1.0325 10.1533 1.39017C9.6197 1.74874 9.12025 2.2398 8.66468 2.75499L8.00008 3.50656L7.33548 2.75499C6.87993 2.23982 6.38044 1.74876 5.84679 1.39018C5.31448 1.0325 4.79826 0.84 4.29265 0.84C2.19156 0.84 0.872727 2.61241 0.872727 4.05273C0.872727 5.7138 1.86916 7.42024 3.40825 9.07124C4.7745 10.5368 6.4756 11.8607 7.99999 12.9556Z" fill="#171717"></path>
-		</svg>
-        </button>
+        
         <button class="product-card__wishlist-btn full" x-show="addedToWishList === true" @click.stop="remove" aria-label="WishlistRemove">
           <svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
 			<path fill-rule="evenodd" clip-rule="evenodd" d="M7.40862 1.58396C6.54533 0.735212 5.48909 0 4.29265 0C1.63241 0 0 2.22641 0 4.05273C0 8.00156 4.6898 11.6668 8 14C11.3103 11.6666 16 8.00117 16 4.05273C16 2.22656 14.3675 0 11.7073 0C10.5109 0 9.45479 0.735207 8.59153 1.58395C8.38287 1.78911 8.18547 2.0009 8.00008 2.21055C7.8147 2.0009 7.6173 1.78911 7.40862 1.58396Z" fill="#071D49"></path>
@@ -5474,18 +5341,12 @@ Quick Buy
     <div class="product-card__main">
       
       <div class="product-card__metafields eyebrow">
-        Balance Mind & Skin
+        Cân bằng tâm trí & làn da
       </div>
       <h5 class="product-card__title">Radiance Boost Serum</h5>
       
       <div class="product-card__ratings">
-        <div class="yotpo bottomLine" data-appkey="v6myo2ta2yIYdE7uz944DA9N91sTw02E7GP2OW5Z" data-domain="aromatherapy-associates.myshopify.com" data-product-id="7903622791410" data-product-models="7903622791410" data-name="Radiance Boost Serum" data-url="https://www.aromatherapyassociates.com/products/radiance-boost-serum-30ml" data-image-url="files/RN234030_main_dca67783-d902-4571-a326-a4c374a01480.png" data-description="<p>A nourishing serum to rehydrate and firm your skin</p>
-<p> </p>
-<p>25% off when you buy 2 or more, with code SKIN25.</p>
-<p> </p>
-<p>This indulgent serum is formulated with Alpine Rose promotes cell regeneration to deliver improved skin tone and texture. Prebiotics boost's your skin's natural defences, enhancing your skin's barrier. And Pink Rock Rose helps to reduce signs of inflammation.</p>
-<p> </p>
-<p>Leaving behind nourished, luminous and firm skin.</p>" data-bread-crumbs="badge_bg: #071D49;badge_colour: #f9f6f4;badge_text: 25% off when you buy 2+;breakouts;combination skin;daily;dehydrated skin;dry skin;dullness;full size skincare;mature skin;oily skin;pores;sensitive skin;skincare;subscription;"></div>
+        <div class="yotpo bottomLine" data-appkey="v6myo2ta2yIYdE7uz944DA9N91sTw02E7GP2OW5Z" data-domain="aromatherapy-associates.myshopify.com" data-product-id="7903622791410" data-product-models="7903622791410" data-name="Radiance Boost Serum" data-url="https://www.aromatherapyassociates.com/products/radiance-boost-serum-30ml" data-image-url="files/RN234030_main_dca67783-d902-4571-a326-a4c374a01480.png"></div>
       </div>
       
       
@@ -5497,7 +5358,7 @@ Quick Buy
             
           </div>
         
-        <a href="/products/radiance-boost-serum-30ml" class="product-card__main__link"></a>
+        <a href="/radiance-boost-serum-30ml.html" class="product-card__main__link"></a>
       
     </div>
   </div>
@@ -5568,11 +5429,7 @@ Quick Buy
     
       <div class="product-card__wishlist" :class="{show: addedToWishList !== null}" x-data="wishlistButton" ax-load="" ax-load-src="//www.aromatherapyassociates.com/cdn/shop/t/179/assets/astound.alpine.wishlist-btn.js?v=81483677512180393371759754484" x-init="()=>{handle = 'oil-to-foam-cleanser-140ml'}" @wishlist.window="getWishlist">
         <!-- Swym Wishlist Plus EPI Button -->
-        <button class="product-card__wishlist-btn empty" x-show="addedToWishList === false" @click.stop="add" aria-label="Wishlist">
-          <svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-			<path fill-rule="evenodd" clip-rule="evenodd" d="M7.40862 1.58396C6.54533 0.735212 5.48909 0 4.29265 0C1.63241 0 0 2.22641 0 4.05273C0 8.00156 4.6898 11.6668 8 14C11.3103 11.6666 16 8.00117 16 4.05273C16 2.22656 14.3675 0 11.7073 0C10.5109 0 9.45479 0.735207 8.59153 1.58395C8.38287 1.78911 8.18547 2.0009 8.00008 2.21055C7.8147 2.0009 7.6173 1.78911 7.40862 1.58396ZM7.99999 12.9556C9.52441 11.8607 11.2255 10.5367 12.5918 9.07105C14.1309 7.41999 15.1273 5.7136 15.1273 4.05273C15.1273 2.61255 13.8084 0.84 11.7073 0.84C11.2018 0.84 10.6856 1.0325 10.1533 1.39017C9.6197 1.74874 9.12025 2.2398 8.66468 2.75499L8.00008 3.50656L7.33548 2.75499C6.87993 2.23982 6.38044 1.74876 5.84679 1.39018C5.31448 1.0325 4.79826 0.84 4.29265 0.84C2.19156 0.84 0.872727 2.61241 0.872727 4.05273C0.872727 5.7138 1.86916 7.42024 3.40825 9.07124C4.7745 10.5368 6.4756 11.8607 7.99999 12.9556Z" fill="#171717"></path>
-		</svg>
-        </button>
+        
         <button class="product-card__wishlist-btn full" x-show="addedToWishList === true" @click.stop="remove" aria-label="WishlistRemove">
           <svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
 			<path fill-rule="evenodd" clip-rule="evenodd" d="M7.40862 1.58396C6.54533 0.735212 5.48909 0 4.29265 0C1.63241 0 0 2.22641 0 4.05273C0 8.00156 4.6898 11.6668 8 14C11.3103 11.6666 16 8.00117 16 4.05273C16 2.22656 14.3675 0 11.7073 0C10.5109 0 9.45479 0.735207 8.59153 1.58395C8.38287 1.78911 8.18547 2.0009 8.00008 2.21055C7.8147 2.0009 7.6173 1.78911 7.40862 1.58396Z" fill="#071D49"></path>
@@ -5602,18 +5459,12 @@ Quick Buy
     <div class="product-card__main">
       
       <div class="product-card__metafields eyebrow">
-        Balance Mind & Skin
+        Cân bằng tâm trí & làn da
       </div>
       <h5 class="product-card__title">Oil to Foam Cleanser</h5>
       
       <div class="product-card__ratings">
-        <div class="yotpo bottomLine" data-appkey="v6myo2ta2yIYdE7uz944DA9N91sTw02E7GP2OW5Z" data-domain="aromatherapy-associates.myshopify.com" data-product-id="7903622955250" data-product-models="7903622955250" data-name="Oil to Foam Cleanser" data-url="https://www.aromatherapyassociates.com/products/oil-to-foam-cleanser-140ml" data-image-url="files/RN230140_main.png" data-description="<p>Transforming from silky oil to luxurious foam, to cleanse and brighten the skin</p>
-<p> </p>
-<p>25% off when you buy 2 or more Skincare, with code <b>SKIN25.</b></p>
-<p> </p>
-<p><span>Perfect for your first or second cleanse to deeply remove make-up and impurities, Squalane ensures a reduction in moisture loss and mimics the skin’s natural oils to restore hydration. </span></p>
-<p> </p>
-<p><span>Brightening Niacinamide evens the skin tone and energises the complexion, while Rosehip Oil enriches the skin with moisturising vitamins A and E.</span></p>" data-bread-crumbs="badge_bg: #071D49;badge_colour: #f9f6f4;badge_text: 25% Off when you buy 2+;breakouts;combination skin;daily;full size skincare;oily skin;pores;skincare;subscription;"></div>
+        <div class="yotpo bottomLine" data-appkey="v6myo2ta2yIYdE7uz944DA9N91sTw02E7GP2OW5Z" data-domain="aromatherapy-associates.myshopify.com" data-product-id="7903622955250" data-product-models="7903622955250" data-name="Oil to Foam Cleanser" data-url="https://www.aromatherapyassociates.com/products/oil-to-foam-cleanser-140ml" data-image-url="files/RN230140_main.png"></div>
       </div>
       
       
@@ -5625,7 +5476,7 @@ Quick Buy
             
           </div>
         
-        <a href="/products/oil-to-foam-cleanser-140ml" class="product-card__main__link"></a>
+        <a href="/oil-to-foam-cleanser-140ml.html" class="product-card__main__link"></a>
       
     </div>
   </div>
@@ -5696,11 +5547,7 @@ Quick Buy
     
       <div class="product-card__wishlist" :class="{show: addedToWishList !== null}" x-data="wishlistButton" ax-load="" ax-load-src="//www.aromatherapyassociates.com/cdn/shop/t/179/assets/astound.alpine.wishlist-btn.js?v=81483677512180393371759754484" x-init="()=>{handle = 'pro-calm-face-oil-15ml'}" @wishlist.window="getWishlist">
         <!-- Swym Wishlist Plus EPI Button -->
-        <button class="product-card__wishlist-btn empty" x-show="addedToWishList === false" @click.stop="add" aria-label="Wishlist">
-          <svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-			<path fill-rule="evenodd" clip-rule="evenodd" d="M7.40862 1.58396C6.54533 0.735212 5.48909 0 4.29265 0C1.63241 0 0 2.22641 0 4.05273C0 8.00156 4.6898 11.6668 8 14C11.3103 11.6666 16 8.00117 16 4.05273C16 2.22656 14.3675 0 11.7073 0C10.5109 0 9.45479 0.735207 8.59153 1.58395C8.38287 1.78911 8.18547 2.0009 8.00008 2.21055C7.8147 2.0009 7.6173 1.78911 7.40862 1.58396ZM7.99999 12.9556C9.52441 11.8607 11.2255 10.5367 12.5918 9.07105C14.1309 7.41999 15.1273 5.7136 15.1273 4.05273C15.1273 2.61255 13.8084 0.84 11.7073 0.84C11.2018 0.84 10.6856 1.0325 10.1533 1.39017C9.6197 1.74874 9.12025 2.2398 8.66468 2.75499L8.00008 3.50656L7.33548 2.75499C6.87993 2.23982 6.38044 1.74876 5.84679 1.39018C5.31448 1.0325 4.79826 0.84 4.29265 0.84C2.19156 0.84 0.872727 2.61241 0.872727 4.05273C0.872727 5.7138 1.86916 7.42024 3.40825 9.07124C4.7745 10.5368 6.4756 11.8607 7.99999 12.9556Z" fill="#171717"></path>
-		</svg>
-        </button>
+        
         <button class="product-card__wishlist-btn full" x-show="addedToWishList === true" @click.stop="remove" aria-label="WishlistRemove">
           <svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
 			<path fill-rule="evenodd" clip-rule="evenodd" d="M7.40862 1.58396C6.54533 0.735212 5.48909 0 4.29265 0C1.63241 0 0 2.22641 0 4.05273C0 8.00156 4.6898 11.6668 8 14C11.3103 11.6666 16 8.00117 16 4.05273C16 2.22656 14.3675 0 11.7073 0C10.5109 0 9.45479 0.735207 8.59153 1.58395C8.38287 1.78911 8.18547 2.0009 8.00008 2.21055C7.8147 2.0009 7.6173 1.78911 7.40862 1.58396Z" fill="#071D49"></path>
@@ -5730,18 +5577,12 @@ Quick Buy
     <div class="product-card__main">
       
       <div class="product-card__metafields eyebrow">
-        Balance Mind & Skin
+        Cân bằng tâm trí & làn da
       </div>
       <h5 class="product-card__title">Pro Calm Face Oil</h5>
       
       <div class="product-card__ratings">
-        <div class="yotpo bottomLine" data-appkey="v6myo2ta2yIYdE7uz944DA9N91sTw02E7GP2OW5Z" data-domain="aromatherapy-associates.myshopify.com" data-product-id="7903622922482" data-product-models="7903622922482" data-name="Pro Calm Face Oil" data-url="https://www.aromatherapyassociates.com/products/pro-calm-face-oil-15ml" data-image-url="files/RN232015_main.png" data-description="<p>A lightweight oil to soothe skin and mind</p>
-<p> </p>
-<p><span>The Pro Calm Face Oil hydrates and soothes the skin with Ylang Ylang to balance oily skin types, while Lavender is known to help unclog pores and calm the complexion. </span></p>
-<p class=" ewa-rteline"=""> <p></p>
-<p class="ewa-rteLine"><span>Bakuchiol also helps to refine your skin's texture as a natural retinol alternative. And </span><span>Apple Seed Oil - rich in antioxidants - promotes cell regeneration for silky smooth skin.</span></p>
-<p class="ewa-rteLine"> </p>
-<p class="ewa-rteLine"><em>Please note discount codes do not apply, and this product is excluded from the offer: 25% off when you buy 2+ Skincare.</em></p>" data-bread-crumbs="badge_bg: #071D49;badge_colour: #f9f6f4;breakouts;combination skin;daily;face oil;full size skincare;oily skin;pores;sensitive skin;skincare;"></div>
+        <div class="yotpo bottomLine" data-appkey="v6myo2ta2yIYdE7uz944DA9N91sTw02E7GP2OW5Z" data-domain="aromatherapy-associates.myshopify.com" data-product-id="7903622922482" data-product-models="7903622922482" data-name="Pro Calm Face Oil" data-url="https://www.aromatherapyassociates.com/products/pro-calm-face-oil-15ml" data-image-url="files/RN232015_main.png"></div>
       </div>
       
       
@@ -5753,7 +5594,7 @@ Quick Buy
             
           </div>
         
-        <a href="/products/pro-calm-face-oil-15ml" class="product-card__main__link"></a>
+        <a href="/pro-calm-face-oil-15ml.html" class="product-card__main__link"></a>
       
     </div>
   </div>
@@ -5824,11 +5665,7 @@ Quick Buy
     
       <div class="product-card__wishlist" :class="{show: addedToWishList !== null}" x-data="wishlistButton" ax-load="" ax-load-src="//www.aromatherapyassociates.com/cdn/shop/t/179/assets/astound.alpine.wishlist-btn.js?v=81483677512180393371759754484" x-init="()=>{handle = 'hydrating-gel-mask-50ml'}" @wishlist.window="getWishlist">
         <!-- Swym Wishlist Plus EPI Button -->
-        <button class="product-card__wishlist-btn empty" x-show="addedToWishList === false" @click.stop="add" aria-label="Wishlist">
-          <svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-			<path fill-rule="evenodd" clip-rule="evenodd" d="M7.40862 1.58396C6.54533 0.735212 5.48909 0 4.29265 0C1.63241 0 0 2.22641 0 4.05273C0 8.00156 4.6898 11.6668 8 14C11.3103 11.6666 16 8.00117 16 4.05273C16 2.22656 14.3675 0 11.7073 0C10.5109 0 9.45479 0.735207 8.59153 1.58395C8.38287 1.78911 8.18547 2.0009 8.00008 2.21055C7.8147 2.0009 7.6173 1.78911 7.40862 1.58396ZM7.99999 12.9556C9.52441 11.8607 11.2255 10.5367 12.5918 9.07105C14.1309 7.41999 15.1273 5.7136 15.1273 4.05273C15.1273 2.61255 13.8084 0.84 11.7073 0.84C11.2018 0.84 10.6856 1.0325 10.1533 1.39017C9.6197 1.74874 9.12025 2.2398 8.66468 2.75499L8.00008 3.50656L7.33548 2.75499C6.87993 2.23982 6.38044 1.74876 5.84679 1.39018C5.31448 1.0325 4.79826 0.84 4.29265 0.84C2.19156 0.84 0.872727 2.61241 0.872727 4.05273C0.872727 5.7138 1.86916 7.42024 3.40825 9.07124C4.7745 10.5368 6.4756 11.8607 7.99999 12.9556Z" fill="#171717"></path>
-		</svg>
-        </button>
+        
         <button class="product-card__wishlist-btn full" x-show="addedToWishList === true" @click.stop="remove" aria-label="WishlistRemove">
           <svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
 			<path fill-rule="evenodd" clip-rule="evenodd" d="M7.40862 1.58396C6.54533 0.735212 5.48909 0 4.29265 0C1.63241 0 0 2.22641 0 4.05273C0 8.00156 4.6898 11.6668 8 14C11.3103 11.6666 16 8.00117 16 4.05273C16 2.22656 14.3675 0 11.7073 0C10.5109 0 9.45479 0.735207 8.59153 1.58395C8.38287 1.78911 8.18547 2.0009 8.00008 2.21055C7.8147 2.0009 7.6173 1.78911 7.40862 1.58396Z" fill="#071D49"></path>
@@ -5858,18 +5695,12 @@ Quick Buy
     <div class="product-card__main">
       
       <div class="product-card__metafields eyebrow">
-        Balance Mind & Skin
+        Cân bằng tâm trí & làn da
       </div>
       <h5 class="product-card__title">Hydrating Gel Mask</h5>
       
       <div class="product-card__ratings">
-        <div class="yotpo bottomLine" data-appkey="v6myo2ta2yIYdE7uz944DA9N91sTw02E7GP2OW5Z" data-domain="aromatherapy-associates.myshopify.com" data-product-id="7903622824178" data-product-models="7903622824178" data-name="Hydrating Gel Mask" data-url="https://www.aromatherapyassociates.com/products/hydrating-gel-mask-50ml" data-image-url="files/RN233050_main_3.png" data-description="<p>A fast-acting moisture boost that glides onto skin for intense hydration</p>
-<p> </p>
-<p>Protect the skin’s natural barrier with this deeply moisturising mask, perfect to leave on during the course of the day, or to condition overnight.</p>
-<p> </p>
-<p>Prebiotics support the skin’s natural defences with it's restoring properties, while Vitamin B5 hydrates and softens the skin. And Niacinamide reveals a brighter, more energised complexion.</p>
-<p> </p>
-<p><em>Please note discount codes do not apply, and this product is excluded from the offer: 25% off when you buy 2+ Skincare.</em></p>" data-bread-crumbs="badge_bg: #071D49;badge_colour: #f9f6f4;combination skin;dehydrated skin;dry skin;dullness;full size skincare;mature skin;oily skin;pores;sensitive skin;skincare;"></div>
+        <div class="yotpo bottomLine" data-appkey="v6myo2ta2yIYdE7uz944DA9N91sTw02E7GP2OW5Z" data-domain="aromatherapy-associates.myshopify.com" data-product-id="7903622824178" data-product-models="7903622824178" data-name="Hydrating Gel Mask" data-url="https://www.aromatherapyassociates.com/products/hydrating-gel-mask-50ml" data-image-url="files/RN233050_main_3.png"></div>
       </div>
       
       
@@ -5881,7 +5712,7 @@ Quick Buy
             
           </div>
         
-        <a href="/products/hydrating-gel-mask-50ml" class="product-card__main__link"></a>
+        <a href="/hydrating-gel-mask-50ml.html" class="product-card__main__link"></a>
       
     </div>
   </div>
@@ -5952,11 +5783,7 @@ Quick Buy
     
       <div class="product-card__wishlist" :class="{show: addedToWishList !== null}" x-data="wishlistButton" ax-load="" ax-load-src="//www.aromatherapyassociates.com/cdn/shop/t/179/assets/astound.alpine.wishlist-btn.js?v=81483677512180393371759754484" x-init="()=>{handle = 'pro-barrier-boost-face-oil-15ml'}" @wishlist.window="getWishlist">
         <!-- Swym Wishlist Plus EPI Button -->
-        <button class="product-card__wishlist-btn empty" x-show="addedToWishList === false" @click.stop="add" aria-label="Wishlist">
-          <svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-			<path fill-rule="evenodd" clip-rule="evenodd" d="M7.40862 1.58396C6.54533 0.735212 5.48909 0 4.29265 0C1.63241 0 0 2.22641 0 4.05273C0 8.00156 4.6898 11.6668 8 14C11.3103 11.6666 16 8.00117 16 4.05273C16 2.22656 14.3675 0 11.7073 0C10.5109 0 9.45479 0.735207 8.59153 1.58395C8.38287 1.78911 8.18547 2.0009 8.00008 2.21055C7.8147 2.0009 7.6173 1.78911 7.40862 1.58396ZM7.99999 12.9556C9.52441 11.8607 11.2255 10.5367 12.5918 9.07105C14.1309 7.41999 15.1273 5.7136 15.1273 4.05273C15.1273 2.61255 13.8084 0.84 11.7073 0.84C11.2018 0.84 10.6856 1.0325 10.1533 1.39017C9.6197 1.74874 9.12025 2.2398 8.66468 2.75499L8.00008 3.50656L7.33548 2.75499C6.87993 2.23982 6.38044 1.74876 5.84679 1.39018C5.31448 1.0325 4.79826 0.84 4.29265 0.84C2.19156 0.84 0.872727 2.61241 0.872727 4.05273C0.872727 5.7138 1.86916 7.42024 3.40825 9.07124C4.7745 10.5368 6.4756 11.8607 7.99999 12.9556Z" fill="#171717"></path>
-		</svg>
-        </button>
+        
         <button class="product-card__wishlist-btn full" x-show="addedToWishList === true" @click.stop="remove" aria-label="WishlistRemove">
           <svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
 			<path fill-rule="evenodd" clip-rule="evenodd" d="M7.40862 1.58396C6.54533 0.735212 5.48909 0 4.29265 0C1.63241 0 0 2.22641 0 4.05273C0 8.00156 4.6898 11.6668 8 14C11.3103 11.6666 16 8.00117 16 4.05273C16 2.22656 14.3675 0 11.7073 0C10.5109 0 9.45479 0.735207 8.59153 1.58395C8.38287 1.78911 8.18547 2.0009 8.00008 2.21055C7.8147 2.0009 7.6173 1.78911 7.40862 1.58396Z" fill="#071D49"></path>
@@ -5986,18 +5813,12 @@ Quick Buy
     <div class="product-card__main">
       
       <div class="product-card__metafields eyebrow">
-        Balance Mind & Skin
+        Cân bằng tâm trí & làn da
       </div>
       <h5 class="product-card__title">Pro Barrier Boost Face Oil</h5>
       
       <div class="product-card__ratings">
-        <div class="yotpo bottomLine" data-appkey="v6myo2ta2yIYdE7uz944DA9N91sTw02E7GP2OW5Z" data-domain="aromatherapy-associates.myshopify.com" data-product-id="7903638225138" data-product-models="7903638225138" data-name="Pro Barrier Boost Face Oil" data-url="https://www.aromatherapyassociates.com/products/pro-barrier-boost-face-oil-15ml" data-image-url="files/RN233015_main_14f72e5f-4152-410c-b683-d6dc227a7857.png" data-description="<p>Winner of Best Face Oil at the Red Best of Beauty Awards 2024</p>
-<p> </p>
-<p>25% off when you buy 2 or more, with code SKIN25.</p>
-<p> </p>
-<p>Banish flaky skin with this lightweight oil, formulated to restore<span> the skin’s barrier and leave skin plump and vibrant.</span></p>
-<p> </p>
-<p><span><span dir=" ltr"="">Moringa Oil leaves the skin replenished with nutrients to restore elasticity and prevent moisture loss. While Rice Germ Oil hydrates the skin to banish tightness. And Rosehip Oil brightens and evens skin tone, and regenerates collagen production. <p></p>" data-bread-crumbs="badge_bg: #071D49;badge_colour: #f9f6f4;badge_text: 25% off when you buy 2+;daily;dry skin;face oil;full size skincare;mature skin;skincare;subscription;"></div>
+        <div class="yotpo bottomLine" data-appkey="v6myo2ta2yIYdE7uz944DA9N91sTw02E7GP2OW5Z" data-domain="aromatherapy-associates.myshopify.com" data-product-id="7903638225138" data-product-models="7903638225138" data-name="Pro Barrier Boost Face Oil" data-url="https://www.aromatherapyassociates.com/products/pro-barrier-boost-face-oil-15ml" data-image-url="files/RN233015_main_14f72e5f-4152-410c-b683-d6dc227a7857.png"></div>
       </div>
       
       
@@ -6009,7 +5830,7 @@ Quick Buy
             
           </div>
         
-        <a href="/products/pro-barrier-boost-face-oil-15ml" class="product-card__main__link"></a>
+        <a href="/pro-barrier-boost-face-oil-15ml.html" class="product-card__main__link"></a>
       
     </div>
   </div>
@@ -6080,11 +5901,7 @@ Quick Buy
     
       <div class="product-card__wishlist" :class="{show: addedToWishList !== null}" x-data="wishlistButton" ax-load="" ax-load-src="//www.aromatherapyassociates.com/cdn/shop/t/179/assets/astound.alpine.wishlist-btn.js?v=81483677512180393371759754484" x-init="()=>{handle = 'hydra-plump-gel-cream-50ml'}" @wishlist.window="getWishlist">
         <!-- Swym Wishlist Plus EPI Button -->
-        <button class="product-card__wishlist-btn empty" x-show="addedToWishList === false" @click.stop="add" aria-label="Wishlist">
-          <svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-			<path fill-rule="evenodd" clip-rule="evenodd" d="M7.40862 1.58396C6.54533 0.735212 5.48909 0 4.29265 0C1.63241 0 0 2.22641 0 4.05273C0 8.00156 4.6898 11.6668 8 14C11.3103 11.6666 16 8.00117 16 4.05273C16 2.22656 14.3675 0 11.7073 0C10.5109 0 9.45479 0.735207 8.59153 1.58395C8.38287 1.78911 8.18547 2.0009 8.00008 2.21055C7.8147 2.0009 7.6173 1.78911 7.40862 1.58396ZM7.99999 12.9556C9.52441 11.8607 11.2255 10.5367 12.5918 9.07105C14.1309 7.41999 15.1273 5.7136 15.1273 4.05273C15.1273 2.61255 13.8084 0.84 11.7073 0.84C11.2018 0.84 10.6856 1.0325 10.1533 1.39017C9.6197 1.74874 9.12025 2.2398 8.66468 2.75499L8.00008 3.50656L7.33548 2.75499C6.87993 2.23982 6.38044 1.74876 5.84679 1.39018C5.31448 1.0325 4.79826 0.84 4.29265 0.84C2.19156 0.84 0.872727 2.61241 0.872727 4.05273C0.872727 5.7138 1.86916 7.42024 3.40825 9.07124C4.7745 10.5368 6.4756 11.8607 7.99999 12.9556Z" fill="#171717"></path>
-		</svg>
-        </button>
+        
         <button class="product-card__wishlist-btn full" x-show="addedToWishList === true" @click.stop="remove" aria-label="WishlistRemove">
           <svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
 			<path fill-rule="evenodd" clip-rule="evenodd" d="M7.40862 1.58396C6.54533 0.735212 5.48909 0 4.29265 0C1.63241 0 0 2.22641 0 4.05273C0 8.00156 4.6898 11.6668 8 14C11.3103 11.6666 16 8.00117 16 4.05273C16 2.22656 14.3675 0 11.7073 0C10.5109 0 9.45479 0.735207 8.59153 1.58395C8.38287 1.78911 8.18547 2.0009 8.00008 2.21055C7.8147 2.0009 7.6173 1.78911 7.40862 1.58396Z" fill="#071D49"></path>
@@ -6114,18 +5931,12 @@ Quick Buy
     <div class="product-card__main">
       
       <div class="product-card__metafields eyebrow">
-        Balance Mind & Skin
+        Cân bằng tâm trí & làn da
       </div>
       <h5 class="product-card__title">Hydra Plump Gel Cream</h5>
       
       <div class="product-card__ratings">
-        <div class="yotpo bottomLine" data-appkey="v6myo2ta2yIYdE7uz944DA9N91sTw02E7GP2OW5Z" data-domain="aromatherapy-associates.myshopify.com" data-product-id="7903622693106" data-product-models="7903622693106" data-name="Hydra Plump Gel Cream" data-url="https://www.aromatherapyassociates.com/products/hydra-plump-gel-cream-50ml" data-image-url="files/RN232050_main_aeceda6b-245d-476d-affb-f9ac46262652.png" data-description="<p>Plump the skin and brighten your complexion</p>
-<p> </p>
-<p>This lightweight facial cream is fast-acting and easily absorbed, intensely hydrating the skin to restore a firmer, more radiant complexion.</p>
-<p> </p>
-<p>Plant Stem Cell Technology derived from Alpine Rose helps to protect the quality of the skin barrier, mimicking a plant’s survival techniques in harsh conditions. While Spanish Bugloss also improves the appearance of redness.</p>
-<p> </p>
-<p>Enriched with Hyaluronic Acid, expect plump and supple skin to be restored. And Niacinamide helps to even skin tone by brightening and energising the complexion.</p>" data-bread-crumbs="badge_bg: #071D49;badge_colour: #f9f6f4;breakouts;combination skin;daily;dehydrated skin;dullness;full size skincare;oily skin;pores;skincare;"></div>
+        <div class="yotpo bottomLine" data-appkey="v6myo2ta2yIYdE7uz944DA9N91sTw02E7GP2OW5Z" data-domain="aromatherapy-associates.myshopify.com" data-product-id="7903622693106" data-product-models="7903622693106" data-name="Hydra Plump Gel Cream" data-url="https://www.aromatherapyassociates.com/products/hydra-plump-gel-cream-50ml" data-image-url="files/RN232050_main_aeceda6b-245d-476d-affb-f9ac46262652.png"></div>
       </div>
       
       
@@ -6137,7 +5948,7 @@ Quick Buy
             
           </div>
         
-        <a href="/products/hydra-plump-gel-cream-50ml" class="product-card__main__link"></a>
+        <a href="/hydra-plump-gel-cream-50ml.html" class="product-card__main__link"></a>
       
     </div>
   </div>
@@ -6208,11 +6019,7 @@ Quick Buy
     
       <div class="product-card__wishlist" :class="{show: addedToWishList !== null}" x-data="wishlistButton" ax-load="" ax-load-src="//www.aromatherapyassociates.com/cdn/shop/t/179/assets/astound.alpine.wishlist-btn.js?v=81483677512180393371759754484" x-init="()=>{handle = 'hydration-boost-mist-100ml'}" @wishlist.window="getWishlist">
         <!-- Swym Wishlist Plus EPI Button -->
-        <button class="product-card__wishlist-btn empty" x-show="addedToWishList === false" @click.stop="add" aria-label="Wishlist">
-          <svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-			<path fill-rule="evenodd" clip-rule="evenodd" d="M7.40862 1.58396C6.54533 0.735212 5.48909 0 4.29265 0C1.63241 0 0 2.22641 0 4.05273C0 8.00156 4.6898 11.6668 8 14C11.3103 11.6666 16 8.00117 16 4.05273C16 2.22656 14.3675 0 11.7073 0C10.5109 0 9.45479 0.735207 8.59153 1.58395C8.38287 1.78911 8.18547 2.0009 8.00008 2.21055C7.8147 2.0009 7.6173 1.78911 7.40862 1.58396ZM7.99999 12.9556C9.52441 11.8607 11.2255 10.5367 12.5918 9.07105C14.1309 7.41999 15.1273 5.7136 15.1273 4.05273C15.1273 2.61255 13.8084 0.84 11.7073 0.84C11.2018 0.84 10.6856 1.0325 10.1533 1.39017C9.6197 1.74874 9.12025 2.2398 8.66468 2.75499L8.00008 3.50656L7.33548 2.75499C6.87993 2.23982 6.38044 1.74876 5.84679 1.39018C5.31448 1.0325 4.79826 0.84 4.29265 0.84C2.19156 0.84 0.872727 2.61241 0.872727 4.05273C0.872727 5.7138 1.86916 7.42024 3.40825 9.07124C4.7745 10.5368 6.4756 11.8607 7.99999 12.9556Z" fill="#171717"></path>
-		</svg>
-        </button>
+        
         <button class="product-card__wishlist-btn full" x-show="addedToWishList === true" @click.stop="remove" aria-label="WishlistRemove">
           <svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
 			<path fill-rule="evenodd" clip-rule="evenodd" d="M7.40862 1.58396C6.54533 0.735212 5.48909 0 4.29265 0C1.63241 0 0 2.22641 0 4.05273C0 8.00156 4.6898 11.6668 8 14C11.3103 11.6666 16 8.00117 16 4.05273C16 2.22656 14.3675 0 11.7073 0C10.5109 0 9.45479 0.735207 8.59153 1.58395C8.38287 1.78911 8.18547 2.0009 8.00008 2.21055C7.8147 2.0009 7.6173 1.78911 7.40862 1.58396Z" fill="#071D49"></path>
@@ -6242,20 +6049,12 @@ Quick Buy
     <div class="product-card__main">
       
       <div class="product-card__metafields eyebrow">
-        Balance Mind & Skin
+        Cân bằng tâm trí & làn da
       </div>
       <h5 class="product-card__title">Hydration Boost Mist</h5>
       
       <div class="product-card__ratings">
-        <div class="yotpo bottomLine" data-appkey="v6myo2ta2yIYdE7uz944DA9N91sTw02E7GP2OW5Z" data-domain="aromatherapy-associates.myshopify.com" data-product-id="7903622988018" data-product-models="7903622988018" data-name="Hydration Boost Mist" data-url="https://www.aromatherapyassociates.com/products/hydration-boost-mist-100ml" data-image-url="files/Hydration_Boost_Mist_GENM_3000x3000_70918adc-7554-4c5e-b820-607f0d9de4c0.png" data-description="<p><span class=" textrun="" scxw189779868="" bcx0"="" lang="EN-GB" data-contrast="auto"><span class="NormalTextRun SpellingErrorV2Themed SCXW189779868 BCX0">MTick</span><span class="TextRun SCXW189779868 BCX0" lang="EN-GB" data-contrast="auto"><span class="NormalTextRun SCXW189779868 BCX0">™</span><span class="NormalTextRun SCXW189779868 BCX0"><span> </span></span></span><span class="TextRun SCXW189779868 BCX0" lang="EN-GB" data-contrast="auto"><span class="NormalTextRun SCXW189779868 BCX0">certified by GenM to actively support menopause, perimenopause and hormonal changes</span></span><p></p>
-<p> </p>
-<p>Perfect for re-hydration on-the-go and a glowing complexion with just one spritz</p>
-<p> </p>
-<p>25% off when you buy 2 or more, with code SKIN25.</p>
-<p> </p>
-<p>Quench thirsty skin throughout the day with a blend of refreshing Damask Rose Water, known to repair and promote cell renewal. Plus hydrating Hyaluronic Acid to soothe, plump and deliver intense hydration.</p>
-<p> </p>
-<p>While Niacinamide brightens and energises the complexion, minimising the look of pores and reducing redness. And Amino Acid Blend repairs and strengthens your skin.</p>" data-bread-crumbs="badge_bg: #071D49;badge_colour: #f9f6f4;badge_text: 25% Off when you buy 2+;breakouts;combination skin;daily;dehydrated skin;dry skin;dullness;full size skincare;mature skin;oily skin;pores;sensitive skin;skincare;subscription;"></div>
+        <div class="yotpo bottomLine" data-appkey="v6myo2ta2yIYdE7uz944DA9N91sTw02E7GP2OW5Z" data-domain="aromatherapy-associates.myshopify.com" data-product-id="7903622988018" data-product-models="7903622988018" data-name="Hydration Boost Mist" data-url="https://www.aromatherapyassociates.com/products/hydration-boost-mist-100ml" data-image-url="files/Hydration_Boost_Mist_GENM_3000x3000_70918adc-7554-4c5e-b820-607f0d9de4c0.png"></div>
       </div>
       
       
@@ -6267,7 +6066,7 @@ Quick Buy
             
           </div>
         
-        <a href="/products/hydration-boost-mist-100ml" class="product-card__main__link"></a>
+        <a href="/hydration-boost-mist-100ml.html" class="product-card__main__link"></a>
       
     </div>
   </div>
@@ -6338,11 +6137,7 @@ Quick Buy
     
       <div class="product-card__wishlist" :class="{show: addedToWishList !== null}" x-data="wishlistButton" ax-load="" ax-load-src="//www.aromatherapyassociates.com/cdn/shop/t/179/assets/astound.alpine.wishlist-btn.js?v=81483677512180393371759754484" x-init="()=>{handle = 'plump-glow-facial-kit'}" @wishlist.window="getWishlist">
         <!-- Swym Wishlist Plus EPI Button -->
-        <button class="product-card__wishlist-btn empty" x-show="addedToWishList === false" @click.stop="add" aria-label="Wishlist">
-          <svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-			<path fill-rule="evenodd" clip-rule="evenodd" d="M7.40862 1.58396C6.54533 0.735212 5.48909 0 4.29265 0C1.63241 0 0 2.22641 0 4.05273C0 8.00156 4.6898 11.6668 8 14C11.3103 11.6666 16 8.00117 16 4.05273C16 2.22656 14.3675 0 11.7073 0C10.5109 0 9.45479 0.735207 8.59153 1.58395C8.38287 1.78911 8.18547 2.0009 8.00008 2.21055C7.8147 2.0009 7.6173 1.78911 7.40862 1.58396ZM7.99999 12.9556C9.52441 11.8607 11.2255 10.5367 12.5918 9.07105C14.1309 7.41999 15.1273 5.7136 15.1273 4.05273C15.1273 2.61255 13.8084 0.84 11.7073 0.84C11.2018 0.84 10.6856 1.0325 10.1533 1.39017C9.6197 1.74874 9.12025 2.2398 8.66468 2.75499L8.00008 3.50656L7.33548 2.75499C6.87993 2.23982 6.38044 1.74876 5.84679 1.39018C5.31448 1.0325 4.79826 0.84 4.29265 0.84C2.19156 0.84 0.872727 2.61241 0.872727 4.05273C0.872727 5.7138 1.86916 7.42024 3.40825 9.07124C4.7745 10.5368 6.4756 11.8607 7.99999 12.9556Z" fill="#171717"></path>
-		</svg>
-        </button>
+        
         <button class="product-card__wishlist-btn full" x-show="addedToWishList === true" @click.stop="remove" aria-label="WishlistRemove">
           <svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
 			<path fill-rule="evenodd" clip-rule="evenodd" d="M7.40862 1.58396C6.54533 0.735212 5.48909 0 4.29265 0C1.63241 0 0 2.22641 0 4.05273C0 8.00156 4.6898 11.6668 8 14C11.3103 11.6666 16 8.00117 16 4.05273C16 2.22656 14.3675 0 11.7073 0C10.5109 0 9.45479 0.735207 8.59153 1.58395C8.38287 1.78911 8.18547 2.0009 8.00008 2.21055C7.8147 2.0009 7.6173 1.78911 7.40862 1.58396Z" fill="#071D49"></path>
@@ -6372,20 +6167,12 @@ Quick Buy
     <div class="product-card__main">
       
       <div class="product-card__metafields eyebrow">
-        Balance Mind & Skin
+        Cân bằng tâm trí & làn da
       </div>
       <h5 class="product-card__title">Plump & Glow Facial Kit</h5>
       
       <div class="product-card__ratings">
-        <div class="yotpo bottomLine" data-appkey="v6myo2ta2yIYdE7uz944DA9N91sTw02E7GP2OW5Z" data-domain="aromatherapy-associates.myshopify.com" data-product-id="7904598065394" data-product-models="7904598065394" data-name="Plump & Glow Facial Kit" data-url="https://www.aromatherapyassociates.com/products/plump-glow-facial-kit" data-image-url="products/WEEK34_WEB_IMAGES_ENGRAVED_3000x3000_1.png" data-description="<p>Seeking a radiant and soft complexion?</p>
-<p><br>Worth £103 | Save 30%</p>
-<p><br></p>
-<p><br>Our Hydra Plump Gel Cream is a lightweight daily moisturiser formulates with  Alpine Rose to protect the quality of your skin barrier, whilst Spanish Bugloss improves the appearance of redness. It's also enriched with Hyaluronic Acid to restore suppleness and Niacinamide to even skin tone.</p>
-<p><br>Then for moments of the week where the skin's natural barrier requires deeper protection and hydration, our Hydrating Gel Mask is the go-to. Prebiotics support and restores the skin’s natural defences, while Vitamin B5 hydrates and softens the skin. Leaving you with a smoother appearance, perfect to leave on during the day or overnight.</p>
-<p>It's also opthalmologist approved, so it can double as an eye mask. </p>
-<p><br>The gift box contains:</p>
-<p>1 x Hydra Plump Gel Cream 50ml</p>
-<p>1 x Hydrating Gel Mask 50ml</p>" data-bread-crumbs="badge_bg: #071D49;badge_colour: #f9f6f4;badge_text: COMING SOON;skincare;"></div>
+        <div class="yotpo bottomLine" data-appkey="v6myo2ta2yIYdE7uz944DA9N91sTw02E7GP2OW5Z" data-domain="aromatherapy-associates.myshopify.com" data-product-id="7904598065394" data-product-models="7904598065394" data-name="Plump & Glow Facial Kit" data-url="https://www.aromatherapyassociates.com/products/plump-glow-facial-kit" data-image-url="products/WEEK34_WEB_IMAGES_ENGRAVED_3000x3000_1.png"></div>
       </div>
       
       
@@ -6395,7 +6182,7 @@ Quick Buy
             
           </div>
         
-        <a href="/products/plump-glow-facial-kit" class="product-card__main__link"></a>
+        <a href="/plump-glow-facial-kit.html" class="product-card__main__link"></a>
       
     </div>
   </div>
@@ -6450,17 +6237,6 @@ Quick Buy
           
         </div>
       
-      <div class="collection__pagination-container">
-        <p class="collection__pagination-info small">
-          <span class="collection__pagination-current" x-text="productsPerPage"></span>
-          of
-          <span class="collection__pagination-total" x-text="prodCount"></span>
-          products viewed
-        </p>
-        <div class="collection__load-more btn secondary" x-show="showLoadMore" @click="loadMore(48)">
-          Load More
-        </div>
-      </div>
     </div>
   </div>
   
